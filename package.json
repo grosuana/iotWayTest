@@ -1,0 +1,74 @@
+{
+  "name": "helloworld",
+  "email": "sign@wyliodrin.com",
+  "author": "Signage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . "
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true,
+      "mocha": false
+    },
+    "globals": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "script"
+    },
+    "plugins": [
+      "vue"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/essential"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        "tab",
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "no-console": [
+        "warn"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "require-await": [
+        "error"
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "eslint": "^5.13.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-eslint": "^21.0.0",
+    "vue": "^2.6.6",
+    "vueify": "^9.4.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+   "name": "helloworld",
+   "appId": "com.sign.petrom",
+   "language": "nodejs",
+   "platform": "raspberrypi",
+   "ui": "noui"
+}
